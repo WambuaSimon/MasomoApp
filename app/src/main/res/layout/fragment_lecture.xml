@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/android"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="@string/country_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="30sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5dp"
+        android:textStyle="italic" />
+
+    <Spinner
+        android:layout_gravity="center"
+        android:id="@+id/country_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/country_label" />
+
+    <Button
+        style="@style/button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_button"
+        android:gravity="center"
+        android:text="get resources"
+
+
+
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="70sp"
+        android:layout_marginTop="150sp"
+        android:id="@+id/button_res" />
+
+
+    <Button
+        style="@style/button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_button"
+        android:gravity="center"
+        android:text="Post a question"
+
+
+
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="70sp"
+        android:layout_marginTop="150sp"
+        android:id="@+id/button_qn" />
+
+
+    <Button
+        style="@style/button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_button"
+        android:gravity="center"
+        android:text="My Units"
+
+
+
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="70sp"
+        android:layout_marginTop="150sp"
+        android:id="@+id/my_units" />
+
+
+
+</LinearLayout>
+</ScrollView>

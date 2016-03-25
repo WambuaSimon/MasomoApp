@@ -1,0 +1,214 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="false"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/android"
+        >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context="com.example.cymmoh.maseno.SignUp"
+
+            >
+
+            <EditText
+                android:id="@+id/editText_unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginRight="100sp"
+                android:layout_marginTop="100sp"
+                android:background="#fff"
+                android:hint="Enter Unit Code"
+
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editText_venue"
+                android:layout_width="1000sp"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/editText_unit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginRight="100sp"
+                android:layout_marginTop="100sp"
+                android:background="#fff"
+                android:hint="Assignment Description"
+                android:padding="10dp"
+                android:inputType="textMultiLine"
+                android:minLines="5"
+                android:singleLine="false"
+                />
+
+            <EditText
+                android:id="@+id/editText_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editText_venue"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginRight="100sp"
+                android:layout_marginTop="100sp"
+                android:background="#fff"
+                android:hint="Due Date"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="time" />
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="50sp">
+
+
+            <Button
+                android:id="@+id/button_add"
+                android:background="@drawable/red_button"
+                style="@style/button_text"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+
+                android:text="add"
+                android:layout_marginRight="10sp"
+                android:layout_marginLeft="100sp" />
+
+            <Button
+                android:id="@+id/button_view"
+
+                android:background="@drawable/red_button"
+                style="@style/button_text"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="view"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"></Button>
+
+            <Button
+                android:id="@+id/button_update"
+
+                android:background="@drawable/red_button"
+                style="@style/button_text"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="updata"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"></Button>
+
+            <Button
+                android:id="@+id/button_delete"
+                android:background="@drawable/red_button"
+                style="@style/button_text"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="10sp"
+
+                android:text="delete"
+
+                android:layout_marginLeft="10sp" />
+
+
+
+        </LinearLayout>
+
+        <Button
+            style="@style/button_text"
+            android:background="@drawable/red_button"
+
+
+            android:layout_marginLeft="70sp"
+            android:layout_marginRight="70sp"
+
+            android:id="@+id/research"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80sp"
+            android:text="Research"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:paddingTop="50sp"
+            android:paddingBottom="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+
+            <ImageView
+                android:id="@+id/rowIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:padding="8dp"
+                android:src="@mipmap/afraid" />
+
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/secondaryColorText"
+                android:id="@+id/rowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:text="Turning to Rocket Science?"
+                android:textStyle="italic" />
+        </LinearLayout>
+        <Button
+            style="@style/button_text"
+            android:background="@drawable/red_button"
+
+
+            android:layout_marginLeft="70sp"
+            android:layout_marginRight="70sp"
+
+            android:id="@+id/button_post"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:text="Post to Q&amp;A Forum"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:layout_marginBottom="20sp" />
+
+    </LinearLayout>
+</ScrollView>

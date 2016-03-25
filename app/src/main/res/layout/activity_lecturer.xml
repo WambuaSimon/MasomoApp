@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="7dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/android"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/tool_bar"
+                layout="@layout/tool_bar"></include>
+
+
+            <Button
+                android:id="@+id/studymaterials"
+                style="@style/button_text"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+
+                android:layout_marginRight="70sp"
+                android:background="@drawable/red_button"
+                android:gravity="center"
+                android:text="Share study materials"
+                android:layout_marginTop="100sp" />
+
+            <Button
+                android:id="@+id/viewassignments"
+                style="@style/button_text"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+
+                android:layout_marginRight="70sp"
+                android:layout_marginTop="100sp"
+                android:background="@drawable/red_button"
+                android:gravity="center"
+                android:text="View Assignments" />
+
+            <Button
+                android:id="@+id/contribute"
+                style="@style/button_text"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+
+                android:layout_marginRight="70sp"
+                android:layout_marginTop="100sp"
+                android:background="@drawable/red_button"
+                android:gravity="center"
+                android:text="Contribute to Q&amp;A Forum" />
+
+            <Button
+                android:id="@+id/contact"
+                style="@style/button_text"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+
+                android:layout_marginRight="70sp"
+                android:layout_marginTop="100sp"
+                android:background="@drawable/red_button"
+                android:gravity="center"
+                android:text="Contact Students" />
+
+            <Button
+                android:id="@+id/notif"
+                style="@style/button_text"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+
+                android:layout_marginRight="70sp"
+                android:layout_marginTop="100sp"
+                android:background="@drawable/red_button"
+                android:gravity="center"
+                android:text="View Notifications" />
+
+            <Button
+                android:id="@+id/issue"
+                style="@style/button_text"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+
+                android:layout_marginRight="70sp"
+                android:layout_marginTop="100sp"
+                android:background="@drawable/red_button"
+                android:gravity="center"
+                android:text="Issue Assignment"
+                android:layout_marginBottom="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="280sp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+
+        android:background="#ffffff"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</android.support.v4.widget.DrawerLayout>
+
+
+

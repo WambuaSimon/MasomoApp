@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">MasomoApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="openDrawer">open</string>
+    <string name="closeDrawer">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lectures">Lectures</string>
+
+    <string name="spinner_title">Select Category</string>
+    <string name="country_label">Select Day To View Your Schedule:</string>
+    <string-array name="countries_list">
+        <item>Day</item>
+        <item>~Monday</item>
+        <item>~Tuesday</item>
+        <item>~Wednesday</item>
+        <item>~Thursday</item>
+        <item>~Friday</item>
+          </string-array>
+    <string-array name="country_arrays">
+
+        <item>~Assesments~</item>
+        <item>Cat I</item>
+        <item>Cat II</item>
+        <item>Take Away</item>
+        <item>Exam</item>
+
+
+    </string-array>
+    <string name="country_prompt">Enter your country</string>
+    <string name="continent_prompt">Enter your continent</string>
+
+    <string name="title_activity_monday">Monday</string>
+    <string name="title_activity_tuesday">Tuesday</string>
+    <string name="title_activity_wednesday">Wednesday</string>
+    <string name="title_activity_thursday">Thursday</string>
+    <string name="title_activity_friday">Friday</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="title_activity_user_accounts">UserAccounts</string>
+    <string name="title_activity_student_account">StudentAccount</string>
+    <string name="title_activity_lecturer_account">LecturerAccount</string>
+
+
+
+    <string name="hint_email">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Don\'t have an account? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! \nLogin.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_student_reg">StudentReg</string>
+    <string name="title_activity_lecturer_reg">LecturerReg</string>
+    <string name="title_activity_resources">Resources</string>
+    <string name="title_activity_qaforum">QAForum</string>
+    <string name="title_activity_my_units">MyUnits</string>
+    <string name="title_activity_assignment_details">AssignmentDetails</string>
+    <string name="title_activity_submit_assignment">SubmitAssignment</string>
+    <string name="title_activity_cat1">Cat1</string>
+    <string name="title_activity_cat2">Cat2</string>
+    <string name="title_activity_take_away">TakeAway</string>
+    <string name="title_activity_exam">Exam</string>
+    <string name="title_activity_innovate">Innovate</string>
+    <string name="title_activity_lecturer">Lecturer</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_to_do">To_do</string>
+    <string name="title_activity_about_us">About_us</string>
+    <string name="title_activity_help">Help</string>
+    <string name="school">School</string>
+    <string name="year">Year</string>
+
+
+    <string-array name="year">
+
+        <item>Year</item>
+        <item>Year 1</item>
+        <item>Year 2</item>
+        <item>Year 3</item>
+        <item>Year 4</item>
+        <item>Year 5</item>
+    </string-array>
+
+    <string-array name="school">
+
+        <item>School</item>
+        <item>School of Computing and Informatics</item>
+        <item>School of Mathematics,Statistics and Acturial Science</item>
+        <item>School of Public Health</item>
+
+    </string-array>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_student_regg">StudentRegg</string>
+    <string name="title_activity_student_accountt">StudentAccountt</string>
+
+
+
+     <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+
+
+</resources>

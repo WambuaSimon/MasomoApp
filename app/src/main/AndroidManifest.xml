@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cymmoh.trial" >
+
+    <uses-permission android:name="ANDROID.PERMISSION.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tuesday"
+            android:label="@string/title_activity_tuesday" >
+            <intent-filter>
+                <action android:name="com.example.cymmoh.trial.Tuesday" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Wednesday"
+            android:label="@string/title_activity_wednesday" >
+            <intent-filter>
+                <action android:name="com.example.cymmoh.trial.Wednesday" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Thursday"
+            android:label="@string/title_activity_thursday" >
+            <intent-filter>
+                <action android:name="com.example.cymmoh.trial.Thursday" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Friday"
+            android:label="@string/title_activity_friday" >
+            <intent-filter>
+                <action android:name="com.example.cymmoh.trial.Friday" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Monday"
+            android:label="@string/title_activity_monday" >
+            <intent-filter>
+                <action android:name="com.example.cymmoh.trial.Monday" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserAccounts"
+            android:label="@string/title_activity_user_accounts" >
+            <intent-filter>
+                <action android:name="android.intent.action.USERACCOUNTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.StudentAccount"
+            android:label="@string/title_activity_student_account" >
+            <intent-filter>
+                <action android:name="android.intent.action.STUDENTACCOUNT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LecturerAccount"
+            android:label="@string/title_activity_lecturer_account" >
+            <intent-filter>
+                <action android:name="android.intent.action.LECTURERACCOUNT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.StudentReg"
+            android:label="@string/title_activity_student_reg" >
+            <intent-filter>
+                <action android:name="android.intent.action.STUDENTREG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LecturerReg"
+            android:label="@string/title_activity_lecturer_reg" >
+            <intent-filter>
+                <action android:name="android.intent.action.LECTURERREG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Resources"
+            android:label="@string/title_activity_resources" >
+            <intent-filter>
+                <action android:name="android.intent.action.RESOURCES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QAForum"
+            android:label="@string/title_activity_qaforum" >
+            <intent-filter>
+                <action android:name="android.intent.action.QAFORUM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyUnits"
+            android:label="@string/title_activity_my_units" >
+            <intent-filter>
+                <action android:name="android.intent.action.MYUNITS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AssignmentDetails"
+            android:label="@string/title_activity_assignment_details" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIGNMENTDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SubmitAssignment"
+            android:label="@string/title_activity_submit_assignment" >
+            <intent-filter>
+                <action android:name="android.intent.action.SUBMITASSIGNMENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cat1"
+            android:label="@string/title_activity_cat1" >
+            <intent-filter>
+                <action android:name="android.intent.action.CAT1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cat2"
+            android:label="@string/title_activity_cat2" >
+            <intent-filter>
+                <action android:name="android.intent.action.CAT2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TakeAway"
+            android:label="@string/title_activity_take_away" >
+            <intent-filter>
+                <action android:name="android.intent.action.TAKEAWAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Exam"
+            android:label="@string/title_activity_exam" >
+            <intent-filter>
+                <action android:name="android.intent.action.EXAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Innovate"
+            android:label="@string/title_activity_innovate" >
+            <intent-filter>
+                <action android:name="android.intent.action.INNOVATE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lecturer"
+            android:label="@string/title_activity_lecturer" >
+            <intent-filter>
+                <action android:name="android.intent.action.LECTURER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".profile"
+            android:label="@string/title_activity_profile" >
+            <intent-filter>
+                <action android:name="android.intent.action.PROFILE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Notifications"
+            android:label="@string/title_activity_notifications" >
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback" >
+            <intent-filter>
+                <action android:name="android.intent.action.FEEDBACK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".To_do"
+            android:label="@string/title_activity_to_do" >
+            <intent-filter>
+                <action android:name="android.intent.action.TO_DO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About_us"
+            android:label="@string/title_activity_about_us" >
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUT_US" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help" >
+            <intent-filter>
+                <action android:name="android.intent.action.HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentRegg"
+            android:label="@string/title_activity_student_regg" >
+        </activity>
+        <activity
+            android:name=".StudentAccountt"
+            android:label="@string/title_activity_student_accountt" >
+        </activity>
+    </application>
+
+</manifest>
